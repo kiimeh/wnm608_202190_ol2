@@ -10,12 +10,16 @@
   --color-neutral-medium: #999;
   --color-neutral-dark: #555;
 
+  --color-main-light: lightblue;
+  --color-main-medium: blue;
+  --color-main-dark: darkblue;
+
   --color-black: #000;
   --color-white: #fff;
 
   --color-darkgreen: #0e2622;
 
-  --header-height: 4rem;
+  --header-height: 5rem;
   --spacing: 1rem;
 
   --font-serif: Georgia, "Times New Roman", serif;
@@ -26,17 +30,20 @@
 body {
   margin: 0;
   font-size: 100%;
-  font-family: var(--font-sans);
+  font-family: "Raleway", sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4 {
-  font-family: var(--font-josefin);
+#subtitle {
+  font-family: "Spartan", sans-serif;
+  font-weight: 500;
 }
 
-h1 {
+#subheading {
+  font-family: "Spartan", sans-serif;
+  font-weight: bolder;
+}
+
+/* h1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,7 +66,7 @@ h3 {
   font-size: 1.5rem;
   font-weight: 400;
   text-align: center;
-}
+} */
 
 p {
   font-family: var(--font-josefin);
@@ -147,21 +154,104 @@ a:hover {
   padding-left: 0;
 }
 
-.navbar {
-  background-color: var(--color-darkgreen);
-  color: var(--color-white);
-  line-height: var(--header-height);
+.nav a {
+  display: block;
+  padding: 0.2em 0.5em;
+  transition: all 0.4s;
 }
 
-.navbar h1 {
-  font-size: 2em;
-  margin: 0;
-  font-family: "Permanent Marker", cursive, serif;
+.nav a:hover {
+  background-color: var(--color-neutral-medium);
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+.nav .active a {
+  background-color: var(--color-main-light);
+  color: inherit;
+}
+
+.nav-material ul,
+.nav-crumbs ul,
+.nav-pills ul,
+.nav-stretch ul,
+.nav-flex ul {
+  display: flex;
+}
+
+.nav-material li,
+.nav-stretch li {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.nav-pills a {
+  border-radius: 2em;
+  padding: 0.5em 1em;
+}
+
+.nav-crumbs a {
+  display: inline-block;
+}
+
+.nav-crumbs .active a,
+.nav-crumbs a:hover {
+  background-color: transparent;
+  color: inherit;
+  text-decoration: underline;
+}
+
+.nav-crumbs li:not(:first-child)::before {
+  content: ">";
+}
+
+.nav-material a {
+  padding: 0.5em 1em;
+  position: relative;
+}
+
+.nav-material .active a {
+  background-color: transparent;
+  color: inherit;
+}
+
+.nav-material a:hover {
+  background-color: var(--color-neutral-light);
+  color: inherit;
+}
+
+.nav-material a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: var(--color-main-medium);
+  transition: all 0.3s;
+}
+
+.nav-material .active a::after {
+  height: 4px;
 }
 
 .navlink {
   font-family: var(--font-josefin);
   font-size: 1em;
+}
+
+.navbar {
+  background-color: #52adfd;
+  color: var(--color-white);
+  line-height: var(--header-height);
+  display: flex;
+}
+
+.navbar h1 {
+  font-size: 4em;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  justify-content: center;
 }
 
 .navbar a {
@@ -171,7 +261,7 @@ a:hover {
 
 /* CARD */
 .card {
-  color: #fff;
+  background-color: var(--color-white);
   margin-top: 1em;
   margin-bottom: 1em;
   padding: 1em;
@@ -265,4 +355,83 @@ a:hover {
   height: 100px;
   margin-top: -200px;
   background-color: #805912;
+}
+
+/* Small Classes */
+.media-image {
+  max-width: 100%;
+  vertical-align: text-bottom;
+}
+
+/*Figure */
+.figure {
+  margin: 0;
+  background-color: var(--color-white);
+}
+
+.figure img {
+  width: 100%;
+  vertical-align: text-bottom;
+}
+
+.figure figcaption {
+  padding: 1em;
+}
+
+.square {
+  float: left;
+  position: relative;
+  width: 10%;
+  padding-bottom: 10%;
+  margin: 5%;
+  margin-top: 2%;
+  background-color: #1e1e1e;
+  overflow: hidden;
+}
+
+.content {
+  position: absolute;
+  height: 90%;
+  width: 90%;
+  padding: 5%;
+}
+.table {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.bg {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  border-radius: 0.3em;
+  text-align: center;
+  transition-duration: 0.3s;
+}
+
+.bg:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+.bg1 {
+  background-color: #a0a3d9;
+}
+.bg2 {
+  background-color: #3fbfb2;
+}
+.bg3 {
+  background-color: #565959;
+}
+.bg4 {
+  background-color: #f25c5c;
+}
+.bg5 {
+  background-color: #f2f2f2;
+  border: 1px solid #5659591d;
+  color: #56595991;
 }
