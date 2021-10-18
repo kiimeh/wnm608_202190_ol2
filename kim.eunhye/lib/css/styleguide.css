@@ -11,7 +11,7 @@
   --color-neutral-dark: #555;
 
   --color-main-light: lightblue;
-  --color-main-medium: blue;
+  --color-main-medium: rgb(31, 80, 29);
   --color-main-dark: darkblue;
 
   --color-black: #000;
@@ -40,6 +40,20 @@ header {
   display: flex;
 }
 
+#heading1,
+#heading2,
+#heading3,
+#heading4 {
+  font-family: linotype-didot, serif;
+}
+
+#body1,
+#body2 {
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 #title {
   font-size: 4em;
   margin: 0 auto;
@@ -53,14 +67,12 @@ header {
 }
 
 #subtitle {
-  margin-top: 3em;
-  font-family: "Spartan", sans-serif;
-  font-weight: 500;
-}
-
-#subheading {
-  font-family: "Spartan", sans-serif;
-  font-weight: bolder;
+  margin-top: 2em;
+  font-family: europa, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.8em;
+  color: var(--color-main-medium);
 }
 
 p {
@@ -115,12 +127,25 @@ a:hover {
 }
 
 /* Flex Box  */
+#flexbox-type {
+  font-family: europa, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 .container_flex {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
 
   justify-content: flex-end;
+}
+
+.container_flex_center {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+  justify-content: center;
 }
 
 .container_flex1 {
@@ -163,7 +188,6 @@ a:hover {
   list-style-type: none;
   margin-top: 0;
   margin-bottom: 0;
-  padding-left: 0;
 }
 
 .nav a {
@@ -173,8 +197,8 @@ a:hover {
 }
 
 .nav a:hover {
-  background-color: var(--color-neutral-medium);
-  color: var(--color-white);
+  background-color: #ddf0f8;
+  color: var(--color-neutral-medium);
   text-decoration: none;
 }
 
@@ -311,13 +335,14 @@ a:hover {
 }
 
 .box {
-  background-color: gold;
+  background-color: rgb(254, 246, 199);
   padding: 10px;
-  color: var(--color-white);
+  color: inherit;
 }
 
 .column1 {
   background-color: var(--color-neutral-dark);
+  color: var(--color-white);
 }
 
 /* .furnitureOption {
@@ -539,6 +564,7 @@ a:hover {
 
 .form-button:hover {
   text-decoration: none;
+  background-color: var(--color-main-light);
 }
 
 .form-button:active {
@@ -592,7 +618,10 @@ a:hover {
 
 .hotdog.dark {
   background-color: var(--color-neutral-dark);
-  color: var(--color-neutral-light);
+}
+
+.hotdog-color {
+  color: var(--color-white);
 }
 
 .hotdog.light {
@@ -647,4 +676,5 @@ a:hover {
 
 .toggle input:checked + label::after {
   transform: translateX(1em);
+  background-color: var(--color-main-medium);
 }
