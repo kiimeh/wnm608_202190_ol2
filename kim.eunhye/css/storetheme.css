@@ -6,7 +6,9 @@
 }
 body {
   background-color: var(--color-offwhite);
+  font-family: "Raleway", sans-serif;
   padding-bottom: 10em;
+  margin: 0 auto;
 }
 
 .favorite label {
