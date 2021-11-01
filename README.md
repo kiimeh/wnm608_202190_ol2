@@ -4,4 +4,6 @@ Eunhye Kim
 
 https://ekimdesigns.com/
 
+Styleguide
+
 https://ekimdesigns.com/kim.eunhye/styleguide/index.html
