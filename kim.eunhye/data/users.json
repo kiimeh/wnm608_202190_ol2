@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Eunhye Kim",
+    "type": "Student",
+    "email": "ekim68@academyart.edu",
+    "classes": [608, 605, 613]
+  },
+  {
+    "name": "Young",
+    "type": "Artist",
+    "email": "ylee@academyart.edu",
+    "classes": [602, 603, 613, 601]
+  },
+  {
+    "name": "Sean",
+    "type": "Student",
+    "email": "sean@academyart.edu",
+    "classes": [604, 605, 606]
+  },
+  {
+    "name": "Alex",
+    "type": "Actor",
+    "email": "alex@academyart.edu",
+    "classes": [601, 602, 603]
+  },
+  {
+    "name": "Madison",
+    "type": "Pharmacist",
+    "email": "madison@academyart.edu",
+    "classes": [601, 602, 603]
+  }
+]
