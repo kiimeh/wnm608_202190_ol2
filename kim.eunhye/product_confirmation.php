@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Contact Page</title>
+    <title>Confirmation Page</title>
 
     <?php include "parts/meta.php"; ?>
 </head>
@@ -11,10 +11,10 @@
 
     <div class="container">
         <div class="card soft">
-            <h2>Contact</h2>
-
-            <p>Coming Soon!</p>
+            <h2>Thank you for your purchase</h2>
+            <p><a href="product_index.php">Continue Shopping</a></p>
         </div>
     </div>
+
 </body>
 </html>
