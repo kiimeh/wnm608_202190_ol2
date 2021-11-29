@@ -9,10 +9,9 @@
 <body>
     <?php include "parts/navbar.php"; ?>
 
-    <div class="container">
+    <div class="container cbox">
+    <h2>Product Checkout</h2>
         <div class="card soft">
-            <h2>Product Checkout</h2>
-
             <form class="form">
                 <h3>Address</h3>
                 <div class="form-control">

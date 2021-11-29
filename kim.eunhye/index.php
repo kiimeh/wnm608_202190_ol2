@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Your Home ShowRoom</title>
+    <title>Contemporary Space</title>
 
     <?php include "parts/meta.php"; ?>
 

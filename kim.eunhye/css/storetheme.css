@@ -5,7 +5,8 @@
   --color-main-dark: #052b3c;
 }
 body {
-  background-color: #cac4b8;
+  background-color: #f3f6f6;
+  color: #4b4c4d;
   font-family: "Raleway", sans-serif;
   padding-bottom: 10em;
   margin: 0 auto;

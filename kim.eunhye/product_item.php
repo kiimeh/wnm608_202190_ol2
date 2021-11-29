@@ -43,6 +43,7 @@ $image_elements = array_reduce($images, function($r, $o){
 
                     <div class="card-section">
                         <h2 class="product-name"><?= $product->name ?></h2>
+                        <p><?= $product->description ?></p>
                         <div class="product-price">&dollar;<?= $product->price ?></div>
                     </div>
 
@@ -69,8 +70,8 @@ $image_elements = array_reduce($images, function($r, $o){
                             <label for="product-color" class="form-label">Color</label>
                             <div class="form-select">
                                 <select id="product-color" name="product-color">
-                                    <option>blue</option>
-                                    <option>purple</option>
+                                    <option>ivory</option>
+                                    <option>black</option>
                                     <option>green</option>
                                 </select>
                             </div>
@@ -82,10 +83,6 @@ $image_elements = array_reduce($images, function($r, $o){
                     </div>
                 </form>
             </div>
-        </div>
-
-        <div class="card soft dark">
-            <p><?= $product->description ?></p>
         </div>
     </div>
 
