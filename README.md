@@ -14,5 +14,5 @@ https://ekimdesigns.com/kim.eunhye/index.php
 
 Admin
 
-https://ekimdesigns.com/kim.eunhye/admin/users.php
+https://ekimdesigns.com/kim.eunhye/admin
 
