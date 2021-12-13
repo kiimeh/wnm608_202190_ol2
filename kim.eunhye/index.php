@@ -15,7 +15,10 @@ include_once "parts/templates.php";
     <?php include "parts/navbar.php"; ?>
 
     <div id="viewWindow">
-        <div class="view-window" style="background-image: url('img/option2.jpg');"><a href="index.php"><h2 class="showroom_h2">Furniture Select Shop</h2></a></div>
+        
+            <img src='img/option2.jpg' class="view-window><a href="index.php"><h2 class="showroom_h2">Furniture Select Shop</h2></a>
+
+        <!-- <div class="view-window" style="background-image: url('img/option2.jpg');"><a href="index.php"><h2 class="showroom_h2">Furniture Select Shop</h2></a></div> -->
     </div>
 
 
@@ -25,9 +28,9 @@ include_once "parts/templates.php";
     <div class="container" id="figures">
         <h2 id="subtitle">Furniture Items</h2>
         <div class="grid gap gridcard">
-            <div class="col-xs12 col-md-8">
+            <div class="col-xs-12 col-md-8">
                 <figure class="figure product-overlay">
-                    <img src="img/f1.jpeg" alt=""></a>
+                    <a href="product_list.php"><img src="img/f1.jpeg" alt=""></a>
                     <figcaption>
                         <a href="product_list.php">
                             <div class="caption-body">
@@ -36,11 +39,11 @@ include_once "parts/templates.php";
                         </a>
                 </figure>
             </div>
-            <div class="col-xs12 col-md-4">
+            <div class="col-xs-12 col-md-4">
                 <figure class="figure product second">
                     <a href="product_item.php?id=3"><img src="img/f3.jpeg" alt=""></a>
                 </figure>
-            <div class="col-xs12 col-md-4">
+            <div class="col-xs-12 col-md-4">
                 <figure class="figure product second">
                     <a href="product_item.php?id=2"><img src="img/f6.jpeg" alt=""></a>
                 </figure>

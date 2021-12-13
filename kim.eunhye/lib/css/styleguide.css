@@ -54,8 +54,20 @@ body {
   justify-content: center;
 }
 
+header h1 {
+  font-family: mrs-eaves-roman-petite-caps, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  margin-top: 45px;
+}
+
+header.navbar {
+  background-color: #eeece8;
+}
 .navbar a {
-  padding: 0 2em;
   font-weight: 300;
 }
 
@@ -126,6 +138,11 @@ a:hover {
 .flex-column {
   flex-direction: column;
 }
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 /* Flex Box  */
 #flexbox-type {
   font-family: europa, sans-serif;
@@ -186,8 +203,9 @@ a:hover {
 /* Component Classes  */
 .nav ul {
   list-style-type: none;
-  margin: 35px 0;
-  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 .nav a {
@@ -213,7 +231,11 @@ a:hover {
 .nav-stretch ul,
 .nav-flex ul {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
+}
+
+.n1 {
+  margin-top: 25px;
 }
 
 .nav-material li,
@@ -313,6 +335,11 @@ a:hover {
   padding: 0;
 }
 
+[class*="col-"] > .card {
+  height: 100%;
+  margin: 0;
+}
+
 .card-section ~ .card-section {
   border-top: 1px solid var(--color-neutral-light);
 }
@@ -327,8 +354,13 @@ a:hover {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  width: 100%;
+  height: 600;
 }
 
+img.view-window\>\<a.href\= {
+  width: 100%;
+}
 /* .grid {
   border: 1px solid var(--color-neutral-medium);
   text-align: center;
@@ -710,7 +742,7 @@ button.form-button.pl {
 
 .showroom_h2 {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   font-family: epicursive, sans-serif;
   font-weight: 400;
@@ -810,7 +842,6 @@ button.form-button.pl {
 }
 
 .listone {
-  margin-right: 50px;
   font-family: nobel, sans-serif;
   font-weight: 400;
   font-style: normal;
