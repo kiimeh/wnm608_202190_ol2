@@ -52,6 +52,9 @@ body {
   margin: 0 auto;
   font-family: "Raleway", sans-serif;
   justify-content: center;
+  text-align: center;
+  background-color: #223b82;
+  color: #fff;
 }
 
 header h1 {
@@ -687,10 +690,11 @@ button.form-button.pl {
 
 .form-select > select {
   display: block;
-  padding: 0.5em 1em;
+  padding: 0.5em 0em;
   background-color: var(--color-neutral-light);
   border-radius: 0.3em;
   cursor: pointer;
+  text-align: center;
 }
 
 .form-select {

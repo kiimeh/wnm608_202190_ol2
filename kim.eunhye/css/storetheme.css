@@ -63,6 +63,10 @@ body {
   #menu:checked + .navbar .nav {
     display: block;
   }
+
+  .homemain {
+    width: 100%;
+  }
 }
 
 .figure.product.second {
