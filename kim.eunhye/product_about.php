@@ -9,9 +9,10 @@
 <body>
     <?php include "parts/navbar.php"; ?>
 
-    <div id="viewWindow">
+    <img src="img/f4.jpeg" class="view-window aboutimage">
+    <!-- <div id="viewWindow">
         <div class="view-window aboutimage" style="background-image: url('img/f4.jpeg');"></div>
-    </div>
+    </div> -->
 
     <div class="aboutStore">
         <h3>Contemporary Space</h3>
@@ -19,7 +20,7 @@
 
         <div>Furniture <span>&#183;</span> Culture <span>&#183;</span> Spaces</div>
         <p class="aboutStorepara">We present interior solutions and contents that fill the space, centering on furniture.</p>
-        <div class="view-window" style="background-image:url('img/f5.jpeg');"></div>
+        <img src="img/f5.jpeg" class="view-window aboutimage">
         <h3>SPACES</h3>
         <p class="aboutStorepara">We propose various spatial contents such as music, incense, and lighting.</p>
     </div>
