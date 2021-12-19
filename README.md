@@ -1,7 +1,5 @@
 # wnm608_202190_ol2
 
-# Relevant Links_Eunhye Kim
-
 ## StyleGuide
 https://ekimdesigns.com/kim.eunhye/styleguide/index.html
 
