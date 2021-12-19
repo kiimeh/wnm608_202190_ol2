@@ -2,24 +2,22 @@
 
 **Eunhye Kim**
 
-https://ekimdesigns.com/
+# Relevant Links_Eunhye Kim
 
-Styleguide
-
+## StyleGuide
 https://ekimdesigns.com/kim.eunhye/styleguide/index.html
 
-Store
-
+## Store_Contemporary Space
 https://ekimdesigns.com/kim.eunhye/index.php
 
-Admin
-
-https://ekimdesigns.com/kim.eunhye/admin
-
-##Extra Links
-
+## User Data
 https://ekimdesigns.com/kim.eunhye/admin/users.php
 
-https://ekimdesigns.com/kim.eunhye/notes
+## Product Page
+https://ekimdesigns.com/kim.eunhye/product_list.php
 
-https://ekimdesigns.com/kim.eunhye/notes/reading_data.php
+## User Admin Page
+https://ekimdesigns.com/kim.eunhye/admin/users.php
+
+## Prdouct Admin Page
+https://ekimdesigns.com/kim.eunhye/admin/index.php
