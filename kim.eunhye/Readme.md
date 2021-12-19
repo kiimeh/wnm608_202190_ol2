@@ -1,4 +1,4 @@
-*Relevant Links*
+#Relevant Links
 
 ##StyleGuide
 https://ekimdesigns.com/kim.eunhye/styleguide/index.html
