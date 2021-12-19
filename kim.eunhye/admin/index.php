@@ -213,10 +213,11 @@ function showProductPage($o) {
                 <h1>Product Admin</h1>
             </div>
             <div class="flex-stretch"></div>
-            <nav class="nav nav-flex flex-none">
+            <nav class="nav nav-flex n1">
                 <ul>
-                    <li><a href="<?= $_SERVER['PHP_SELF'] ?>">Product List</a></li>
-                    <li><a href="<?= $_SERVER['PHP_SELF'] ?>?id=new">Add New Product</a></li>
+                    <li class="listone"><a href="index.php">Home</a></li>
+                    <li class="listone"><a href="<?= $_SERVER['PHP_SELF'] ?>">Product List</a></li>
+                    <li class="listone"><a href="<?= $_SERVER['PHP_SELF'] ?>?id=new">Add New Product</a></li>
                 </ul>
             </nav>
         </div>

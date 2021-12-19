@@ -18,11 +18,12 @@ include_once "lib/php/functions.php";
             <ul>
                 <li class="listone"><a href="index.php">Home</a></li>
                 <li class="listone"><a href="product_list.php">Furniture</a></li>
-                <li class="listone"><a href="product_contact.php">Contact</a></li>
+                <li class="listone"><a href="product_about.php">About</a></li>
                 <li class="listone"><a href="product_cart.php">
                     <span>Cart</span>
                     <span class="badge"><?= makeCartBadge(); ?></span>
                 </a></li>
+                <li class="listone"><a href="admin/index.php">Admin</a></li>
             </ul>
         </nav>
 

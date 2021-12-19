@@ -15,10 +15,10 @@ include_once "parts/templates.php";
     <?php include "parts/navbar.php"; ?>
 
     <div id="viewWindow">
-        
-            <img src='img/option2.jpg' class="view-window><a href="index.php"><h2 class="showroom_h2">Furniture Select Shop</h2></a>
 
-        <!-- <div class="view-window" style="background-image: url('img/option2.jpg');"><a href="index.php"><h2 class="showroom_h2">Furniture Select Shop</h2></a></div> -->
+        <div class="view-window" style="background-image: url('img/option2.jpg');">
+            <a href="index.php"><h2 class="showroom_h2">Furniture Select Shop</h2></a>
+        </div>
     </div>
 
 
@@ -52,9 +52,9 @@ include_once "parts/templates.php";
     </div>  
 
     <div class="container">
-        <h2>Now Trending!</h2>
+        <h2 class="mainh2">Now Trending!</h2>
         <?php recommendedCategory("furniture");?>
-        <h2>Recommended</h2>
+        <h2 class="mainh2">Recommended</h2>
         <?php recommendedCategory("lighting");?>
     </div>
     

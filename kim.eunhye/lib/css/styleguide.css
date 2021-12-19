@@ -60,10 +60,6 @@ header h1 {
   font-style: normal;
 }
 
-h2 {
-  margin-top: 45px;
-}
-
 header.navbar {
   background-color: #eeece8;
 }
@@ -742,7 +738,7 @@ button.form-button.pl {
 
 .showroom_h2 {
   position: absolute;
-  top: 40%;
+  top: 45%;
   left: 50%;
   font-family: epicursive, sans-serif;
   font-weight: 400;
@@ -833,6 +829,10 @@ button.form-button.pl {
   max-width: 700px;
 } */
 
+.mainh2 {
+  margin-top: 3em;
+}
+
 .imgs {
   text-align: center;
 }
@@ -845,4 +845,24 @@ button.form-button.pl {
   font-family: nobel, sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.aboutStore {
+  text-align: center;
+  font-size: 1.3em;
+  color: #223b82;
+  font-family: mr-eaves-modern, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.aboutStorepara {
+  font-size: 0.8em;
+  font-family: mr-eaves-modern, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.icontri {
+  margin-bottom: 1em;
 }
