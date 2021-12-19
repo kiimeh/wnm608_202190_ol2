@@ -1,7 +1,5 @@
 # wnm608_202190_ol2
 
-**Eunhye Kim**
-
 # Relevant Links_Eunhye Kim
 
 ## StyleGuide
